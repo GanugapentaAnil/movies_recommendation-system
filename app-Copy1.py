@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load dataset
 @st.cache_data
 def load_data():
-    file_path = (r"C:\Users\Hp\Downloads\IMDB_10000.csv")  # Ensure this file is in the same directory
+    file_path = ("IMDB_10000.csv")  # Ensure this file is in the same directory
     df = pd.read_csv(file_path)
     
     # Data Cleaning
